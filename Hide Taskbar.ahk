@@ -2,11 +2,10 @@
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-#t::
 
-{
-WinHide, ahk_class Shell_TrayWnd
-WinHide, ahk_class Shell_SecondaryTrayWnd
-}
+
+#t::
+Run, C:\Program Files\nircmd-x64\.\nircmd.exe win trans class Shell_TrayWnd 256
+return
 
 
