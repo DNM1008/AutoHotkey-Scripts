@@ -6,3 +6,7 @@ My AutoHotkey Scripts
   * You would need to figure out the postion needed. To do that, I suggest you use Mouse Get Position to get X, Y cordinates of the displays, average the X and Y cordinates of Display 1 should give you the position in the middle of Display 1, and so forth.
 * Toggle Taskbar auto show/hide the taskbar wit shortcut Win+f
   *  You might want to enable automatically hide the taskbar in desktop mode (and) tablet mode so that the programs can use the space left when you hide the Taskbar
+* Win + Ztrl + Shift + Left/Right to move window to left/right desktop/workspace. 
+  *  Code is very slightly modified from: https://superuser.com/a/1435341
+  *  Dependency :https://github.com/Ciantic/VirtualDesktopAccessor
+  *  Note: make sure the script and the dll are in the same folder
