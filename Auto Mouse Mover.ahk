@@ -32,3 +32,13 @@ DisY3 = 805-Y3
 MouseMove, DisX3, DisY3
 
 return
+
+#4::
+Send ^
+MouseGetPos, X3, Y3
+CoordMode, Mouse, Screen
+DisX3 = 945-X3
+DisY3 = 1464-Y3
+MouseMove, DisX3, DisY3
+
+return
