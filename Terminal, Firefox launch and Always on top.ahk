@@ -9,6 +9,7 @@ return
 
 #f::
     Run, C:\Program Files\Mozilla Firefox\firefox.exe
+return
 
 ^SPACE::  Winset, Alwaysontop, , A
 return
