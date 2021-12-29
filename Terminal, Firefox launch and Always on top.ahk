@@ -7,9 +7,8 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
     Run, *RunAs C:\Users\ZALMT\AppData\Local\Microsoft\WindowsApps\wt.exe 
 return
 
-#f::
+#w::
     Run, C:\Program Files\Mozilla Firefox\firefox.exe
-return
 
 ^SPACE::  Winset, Alwaysontop, , A
 return
