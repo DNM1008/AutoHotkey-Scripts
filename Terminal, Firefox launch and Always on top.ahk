@@ -8,7 +8,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
     
 return
 
-#f::
+#w::
     Run, C:\Program Files\Mozilla Firefox\firefox.exe
     
 return
