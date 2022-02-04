@@ -12,7 +12,7 @@ My AutoHotkey Scripts
   * Ctrl + Q to Ctrl + W because ergornomic reasons.
   * Win + Q to Alt + F4 because ergonomic reasons.
   
-* Terminal, Firefox launch and Always on top launches Windows Terminal as admin and Firefox with the shortcuts Win+Enter and Win+W and keep an application always on top when you press Ctrl+Space when selecting that window, I wanted to make Windows feel as close to a linux distros with a tiling window manager as posible.
+* Terminal, Firefox launchlaunches Windows Terminal as admin and Firefox with the shortcuts Win+Enter and Win+W, I wanted to make Windows feel as close to a linux distros with a tiling window manager as posible.
 * Toggle Taskbar and Hidden Folders visibility auto show/hide the taskbar and hidden files in Files Explorer with shortcuts Win + Capslock and Ctrl + H
   *  You might want to enable automatically hide the taskbar in desktop mode (and) tablet mode so that the programs can use the space left when you hide the Taskbar
   *  Hidden Files visibility is from https://www.autohotkey.com/board/topic/12342-showhide-hidden-files-and-folders/
