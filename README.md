@@ -13,7 +13,7 @@ My AutoHotkey Scripts
   * Win + Q to Alt + F4 because ergonomic reasons.
   
 * Terminal, Firefox launchlaunches Windows Terminal as admin and Firefox with the shortcuts Win+Enter and Win+W, I wanted to make Windows feel as close to a linux distros with a tiling window manager as posible.
-* Toggle Taskbar and Hidden Folders visibility auto show/hide the taskbar and hidden files in Files Explorer with shortcuts Win + ` and Win + F1
+* Toggle Taskbar and Hidden Folders visibility auto show/hide the taskbar and hidden files in Files Explorer with shortcuts Win +' and Win + F2
   *  You might want to enable automatically hide the taskbar in desktop mode (and) tablet mode so that the programs can use the space left when you hide the Taskbar
   *  Hidden Files visibility is from https://www.autohotkey.com/board/topic/12342-showhide-hidden-files-and-folders/
 * Toggle Triple and Single monitor setup by Win +F1
