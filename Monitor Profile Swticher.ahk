@@ -6,7 +6,7 @@ state :=3
 
 Run, C:\Program Files\MonitorProfileSwitcher\MonitorSwitcher.exe -load:C:\Users\ZALMT\AppData\Roaming\MonitorSwitcher\Profiles\Triple.xml
 return
-#F2::
+#h::
 
 if (state = 3){
     Run, C:\Program Files\MonitorProfileSwitcher\MonitorSwitcher.exe -load:C:\Users\ZALMT\AppData\Roaming\MonitorSwitcher\Profiles\Single.xml
