@@ -16,7 +16,7 @@ My AutoHotkey Scripts
 * Toggle Taskbar and Hidden Folders visibility auto show/hide the taskbar and hidden files in Files Explorer with shortcuts Win +' and Win + F1
   *  You might want to enable automatically hide the taskbar in desktop mode (and) tablet mode so that the programs can use the space left when you hide the Taskbar
   *  Hidden Files visibility is from https://www.autohotkey.com/board/topic/12342-showhide-hidden-files-and-folders/
-* Toggle Triple and Single monitor setup by Win +F2
+* Toggle Triple and Single monitor setup by Win +h
   * Inspired by https://www.autohotkey.com/boards/viewtopic.php?t=21302
   * Monitor Profile Switcher: https://sourceforge.net/projects/monitorswitcher/
 * Window Mover move window to left/right desktop/workspace using Win + Ctrl + Shift + Left/Right . 
