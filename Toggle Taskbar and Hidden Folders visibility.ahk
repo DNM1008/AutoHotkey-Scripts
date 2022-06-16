@@ -4,7 +4,7 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
-#Capslock::
+#`::
 if (HideTray := !HideTray) {
     Run, C:\Program Files\nircmd-x64\.\nircmd.exe win trans class Shell_TrayWnd 256
 }
@@ -13,7 +13,7 @@ else{
 }
 
 return
-^h::GoSub,CheckActiveWindow
+#F1::GoSub,CheckActiveWindow
 
 CheckActiveWindow:
   ID := WinExist("A")
