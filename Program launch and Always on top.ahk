@@ -1,18 +1,21 @@
-﻿ #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+﻿#NoEnv ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+SendMode Input ; Recommended for new scripts due to its superior speed and reliability.
+SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
 
 Run, C:\Program Files\nircmd-x64\.\nircmd.exe win trans class Shell_TrayWnd 256
 
+WinActivate Program Manager ; desktop
+
 #ENTER::
+    WinActivate Program Manager ; desktop
     Run, *RunAs C:\Users\ZALMT\AppData\Local\Microsoft\WindowsApps\wt.exe
-    
+
 return
 
 #w::
     Run, C:\Program Files\Mozilla Firefox\firefox.exe
-    
+
 return
 
 #m::
@@ -29,9 +32,13 @@ Return
 Return
 
 #d::
-Run, C:\Users\ZALMT\AppData\Local\Discord\Update.exe --processStart Discord.exe
+    Run, C:\Users\ZALMT\AppData\Local\DiscordCanary\Update.exe --processStart DiscordCanary.exe
 Return
 
 #a::
-Run, G:\Games\Content Manager.exe
+    Run, G:\Games\Content Manager.exe
 Return 
+
+#t::
+    Run, C:\Users\ZALMT\AppData\Roaming\Telegram Desktop\Telegram.exe
+Return
