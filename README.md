@@ -3,7 +3,7 @@ My AutoHotkey Scripts
 
 
 * Auto Mouse Mover Move the cursor to the middle of the displays 1, 2, 3, when you press Win+1, 2 or 3.
-  * You would need to figure out the postion needed. To do that, I suggest you use Mouse Get Position to get X, Y cordinates of the displays, average the X and Y cordinates of Display 1 should give you the position in the middle of Display 1, and so forth.
+  * You would need to figure out the postion needed. To do that, I recommend you use Mouse Get Position to get X, Y cordinates of the displays, average the X and Y cordinates of Display 1 should give you the position in the middle of Display 1, and so forth.
 * Shortcut Remap remaps (obviously) the keys and shortcuts that I originally set using PowerToys. These include:
   * Right Alt to Shift + F10 for keyboards which don't have a dedicated Menu/Apps key.
   * Right Shift + arrow keys to Left Alt + arrow keys for one handed File Explorer and browser navigation.
@@ -23,3 +23,7 @@ My AutoHotkey Scripts
   *  Code is very slightly modified from: https://superuser.com/a/1435341
   *  Dependency :https://github.com/Ciantic/VirtualDesktopAccessor
   *  Note: make sure the script and the dll are in the same folder
+* Program Volume Control controls the volume of Firefox and Discord without you having to go into the settings. I choose Firefox and Discord Canary because those are the two programs that I needed to change volume the most.
+  *  Hold F while adjusting the volume to adjust Firefox's volume relative to the current system volume setting, hold D for Discord (I use Discord Canary, if you use normal Discord, change DiscordCanary.exe to Discord
+  * Main code is from https://www.autohotkey.com/boards/viewtopic.php?f=76&t=46654&start=20
+  
