@@ -4,10 +4,10 @@ SendMode Input ; Recommended for new scripts due to its superior speed and relia
 SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
 
 Run, C:\Program Files\nircmd-x64\.\nircmd.exe win trans class Shell_TrayWnd 256
-
+~LWin::Send {Blind}{vkE8}
 #ENTER::
 
-    Run, *RunAs C:\Users\ZALMT\AppData\Local\Microsoft\WindowsApps\wt.exe
+    Run, *RunAs C:\Users\%A_UserName%\AppData\Local\Microsoft\WindowsApps\wt.exe
     Reload
 
 return
@@ -30,12 +30,12 @@ Return
 Return
 
 #f::
-    Run, C:\Users\ZALMT\AppData\Local\Programs\ferdium\Ferdium.exe
+    Run, C:\Users\%A_UserName%\AppData\Local\Programs\ferdium\Ferdium.exe
     Reload
 Return
 
 #d::
-    Run, C:\Users\ZALMT\AppData\Local\Discord\Update.exe --processStart Discord.exe
+    Run, C:\Users\%A_UserName%\AppData\Local\Discord\Update.exe --processStart Discord.exe
     Reload
 Return
 
@@ -45,7 +45,7 @@ Return
 Return
 
 #t::
-    Run, C:\Users\ZALMT\AppData\Roaming\Telegram Desktop\Telegram.exe
+    Run, %A_AppData%\Roaming\Telegram Desktop\Telegram.exe
     Reload
 Return
 
@@ -54,9 +54,9 @@ Return
     Reload
 
 #o::
-    Run, C:\Users\ZALMT\AppData\Roaming\Spotify\Spotify.exe
+    Run, %A_AppData%\Roaming\Spotify\Spotify.exe
 
-    ~LWin::Send {Blind}{vkE8}
+    
     Reload
 
 #c::
