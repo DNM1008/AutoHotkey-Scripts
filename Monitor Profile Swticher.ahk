@@ -4,7 +4,7 @@ SetWorkingDir, %A_ScriptDir%
 
 state :=3
 
-Run, C:\Program Files\MonitorProfileSwitcher\MonitorSwitcher.exe -load:C:\Users\ZALMT\AppData\Roaming\MonitorSwitcher\Profiles\Triple.xml
+Run, C:\Program Files\MonitorProfileSwitcher\MonitorSwitcher.exe -load:C:\Users\ZALMT\AppData\Roaming\MonitorSwitcher\Profiles\Quadruple.xml
 return
 #h::
 
@@ -14,7 +14,7 @@ if (state = 3){
 return
 }
 if (state = 1){
-    Run, C:\Program Files\MonitorProfileSwitcher\MonitorSwitcher.exe -load:C:\Users\ZALMT\AppData\Roaming\MonitorSwitcher\Profiles\Triple.xml
+    Run, C:\Program Files\MonitorProfileSwitcher\MonitorSwitcher.exe -load:C:\Users\ZALMT\AppData\Roaming\MonitorSwitcher\Profiles\Quadruple.xml
     state:=3
 return
 }
